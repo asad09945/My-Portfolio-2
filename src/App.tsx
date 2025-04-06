@@ -13,12 +13,11 @@ function App() {
             className="rounded-full w-48 h-48 mx-auto mb-6 object-cover shadow-lg"
           />
           <h2 className="text-2xl font-medium text-gray-700 mb-2">Asad Ejaz</h2>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">I am Data Scientist!</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">I am a Software Engineer!</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          I crunch numbers, predict outcomes, 
-          and love every second of it — 
-          I can turn data into actionable insights 
-          that drive smarter decisions and spark innovation
+          Who can turns coffee into code, code into solutions, 
+          and solutions into seamless apps! 
+          
           </p>
         </div>
       </section>
@@ -27,75 +26,70 @@ function App() {
       <section className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-12">Featured Models</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-        {/* Bid Price Prediction */}
+        {/* My Portfolio FrontEnd */}
         <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
           <div className="flex items-center mb-4">
         <BarChart3 className="w-8 h-8 text-blue-600 mr-3" />
-        <h3 className="text-xl font-semibold">Bid Price Prediction</h3>
+        <h3 className="text-xl font-semibold">My Portfolio Front End Developement</h3>
           </div>
           <p className="text-gray-600 mb-4">
-        Advanced machine learning model to predict optimal bid prices using historical data and market trends.
+          Built dynamic, responsive, and user-friendly interfaces
+           using JavaScript, CSS, and React. Focused on creating
+            seamless user experiences with clean, 
+          maintainable code and modern design practices.
           </p>
           <div className="flex space-x-4">
         <a
-          href="https://github.com/asad09945/Click-Ad-Project-/blob/main/RealTimeBidding-ML/notebooks/BiddingModel.ipynb"
+          href="https://github.com/asad09945/My-Protfolio"
           className="flex items-center text-blue-600 hover:text-blue-800"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Github className="w-5 h-5 mr-1" /> Code
-        </a>
-        <a
-          href="https://github.com/asad09945/Click-Ad-Project-/raw/refs/heads/main/RealTimeBidding-ML/models/Bid%20Prediction%20Model.pkl"
-          className="flex items-center text-blue-600 hover:text-blue-800"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ExternalLink className="w-5 h-5 mr-1" /> Download Model
         </a>
           </div>
         </div>
 
-        {/* Bid Win Prediction */}
+        {/* My ATS BackEnd Using Python */}
         <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
         <div className="flex items-center mb-4">
           <Brain className="w-8 h-8 text-purple-600 mr-3" />
-          <h3 className="text-xl font-semibold">Bid Win Prediction</h3>
+          <h3 className="text-xl font-semibold">My ATS Backend Development</h3>
         </div>
         <p className="text-gray-600 mb-4">
-          ML model to predict bid success probability using competitor analysis and market indicators.
+        Developed the back-end of My ATS using Python, 
+        enabling efficient resume parsing, keyword matching, 
+        and automated status updates.
         </p>
         <div className="flex space-x-4">
           <a
-          href="https://github.com/asad09945/Click-Ad-Project-/blob/main/RealTimeBidding-ML/notebooks/BidWinPredicter.ipynb"
+          href="https://github.com/asad09945/MyATS/tree/main/MyATS"
           className="flex items-center text-purple-600 hover:text-purple-800"
           target="_blank"
           rel="noopener noreferrer"
           >
           <Github className="w-5 h-5 mr-1" /> Code
           </a>
-          <a
-          href="https://github.com/asad09945/Click-Ad-Project-/raw/refs/heads/main/RealTimeBidding-ML/models/BidWinModel.pkl"
-          className="flex items-center text-purple-600 hover:text-purple-800"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          <ExternalLink className="w-5 h-5 mr-1" /> Download Model
-          </a>
         </div>
         </div>
-        {/* Rank Based Score */}
+        {/* My Click - Ad ML/AI Models */}
         <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
         <div className="flex items-center mb-4">
         <TrendingUp className="w-8 h-8 text-green-600 mr-3" />
-        <h3 className="text-xl font-semibold">Rank Based Score</h3>
+        <h3 className="text-xl font-semibold">My Click-Ad ML/AI Models</h3>
         </div>
         <p className="text-gray-600 mb-4">
-        Innovative ranking algorithm that combines multiple metrics to generate accurate performance scores.
+        For the click ad project, I developed four machine 
+        learning models to predict user engagement and optimize 
+        bidding strategies. These models include a win predictor 
+        to estimate ad success, a bid predictor to adjust bidding 
+        prices dynamically, and two classifiers that categorize user 
+        behavior based on historical interaction data. Together,
+         they help optimize ad delivery and maximize conversions.
         </p>
         <div className="flex space-x-4">
         <a
-        href="https://github.com/asad09945/Click-Ad-Project-/blob/main/RealTimeBidding-ML/notebooks/RankBasedAuctionScore.ipynb"
+        href="https://github.com/asad09945/Click-Ad-Project-/tree/main/RealTimeBidding-ML/notebooks"
         className="flex items-center text-green-600 hover:text-green-800"
         target="_blank"
         rel="noopener noreferrer"
@@ -103,28 +97,28 @@ function App() {
         <Github className="w-5 h-5 mr-1" /> Code
         </a>
         <a
-        href="https://github.com/asad09945/Click-Ad-Project-/raw/refs/heads/main/RealTimeBidding-ML/models/Rank%20Based%20Score.pkl"
+        href="https://github.com/asad09945/Click-Ad-Project-/tree/main/RealTimeBidding-ML/models"
         className="flex items-center text-green-600 hover:text-green-800"
         target="_blank"
         rel="noopener noreferrer"
         >
-        <ExternalLink className="w-5 h-5 mr-1" /> Download Model
+        <ExternalLink className="w-5 h-5 mr-1" /> Download Models
         </a>
         </div>
         </div>
 
-          {/* Click Through Rate */}
+          {/* Other ML Models */}
           <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
         <div className="flex items-center mb-4">
           <MousePointerClick className="w-8 h-8 text-red-600 mr-3" />
-          <h3 className="text-xl font-semibold">Click Through Rate</h3>
+          <h3 className="text-xl font-semibold">Other ML/AI Models,EDA and ETL</h3>
         </div>
         <p className="text-gray-600 mb-4">
           Predictive analytics system for optimizing CTR using user behavior analysis and A/B testing.
         </p>
         <div className="flex space-x-4">
           <a
-        href="https://github.com/asad09945/Click-Ad-Project-/blob/main/RealTimeBidding-ML/notebooks/CTR(ClickThroughRate)Prediction.ipynb"
+        href="https://github.com/asad09945?tab=repositories"
         className="flex items-center text-red-600 hover:text-red-800"
         target="_blank"
         rel="noopener noreferrer"
@@ -132,12 +126,12 @@ function App() {
         <Github className="w-5 h-5 mr-1" /> Code
           </a>
           <a
-        href="https://github.com/asad09945/Click-Ad-Project-/raw/refs/heads/main/RealTimeBidding-ML/models/CTR_Model.pkl"
+        href="https://github.com/asad09945?tab=repositories"
         className="flex items-center text-red-600 hover:text-red-800"
         target="_blank"
         rel="noopener noreferrer"
           >
-        <ExternalLink className="w-5 h-5 mr-1" /> Download Model
+        <ExternalLink className="w-5 h-5 mr-1" /> Download Models
           </a>
         </div>
           </div>
@@ -152,11 +146,12 @@ function App() {
         'Machine Learning',
         'Statistical Analysis',
         'Python',
-        'R',
+        'JavaScript',
+        'React',
         'SQL',
-        'Deep Learning',
+        'CSS',
         'Data Visualization',
-        'Big Data',
+        'C++',
         'Neural Networks',
           ].map((skill) => (
         <div key={skill} className="bg-gray-50 rounded-lg p-4 text-center">
